@@ -1,14 +1,3 @@
-# tiktoken-grpc-go
-
-`tiktoken-grpc-go` provides Go client bindings for [the tiktoken gRPC
-service](https://github.com/yorinasub17/tiktoken-grpc).
-
-## Usage
-
-> This example targets a tiktoken grpc service running locally. You can modify the host param in the `NewClient` call to
-> target a different instance.
-
-```go
 package main
 
 import (
@@ -49,16 +38,3 @@ func main() {
 	}
 	fmt.Printf("gpt2: %d tokens\n", gpt2)
 }
-```
-
-
-## Installation
-
-```
-go get github.com/yorinasub17/tiktoken-grpc-go
-```
-
-
-## License
-
-This project is licensed under the [3-clause BSD License](/LICENSE).
